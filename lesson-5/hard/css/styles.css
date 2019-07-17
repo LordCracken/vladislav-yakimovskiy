@@ -1,0 +1,51 @@
+body {
+  max-width: 74%;
+  font-family: cursive;
+  background-image: url('https://img0.liveinternet.ru/images/attach/b/3/17/218/17218413_4298752_orkotum13.jpg');
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  position: fixed;
+  max-width: 25%;
+  right: 0;
+  top: 0;
+  background-color: rgba(100, 0, 100, 0.3);
+}
+
+.chapter-1 {
+  background-color: rgba(100, 0, 0, 0.3);
+}
+
+.chapter-2 {
+  background-color: rgba(0, 100, 0, 0.3);
+  text-decoration: underline;
+}
+
+.chapter-3 {
+  font-style: italic;
+  background-color: rgba(0, 0, 100, 0.3);
+}
+
+.chapter-4 {
+  text-decoration: line-through;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.chapter-5 {
+  font-weight: bold;
+  background-color: rgba(100, 100, 100, 0.3);
+}
