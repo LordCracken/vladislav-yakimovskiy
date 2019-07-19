@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(36, 22, 95);
+}
+
+.card {
+  width: 1010px;
+  height: 500px;
+  background-color: #fff;
+  margin: auto;
+}
+
+.img,
+.description {
+  display: inline-block;
+}
+
+.description {
+  margin-top: 75px;
+  width: 395px;
+  vertical-align: top;
+}
+
+.img {
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 100px;
+  width: 375px;
+  height: 375px;
+}
+
+h2 {
+  font-family: Arial-BoldMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  font-size: 18pt;
+  color: rgb(47, 47, 47);
+}
+
+p {
+  font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  font-size: 11pt;
+  color: rgb(47, 47, 47);
+}
+
+.text {
+  margin-top: 30px;
+}
+
+strong {
+  display: block;
+  margin-top: 55px;
+  font-weight: normal;
+  font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  font-size: 11pt;
+  color: rgb(47, 47, 47);
+}
+
+.price {
+  margin-top: 20px;
+  font-size: 22pt;
+}
+
+button {
+  display: block;
+  margin-top: 55px;
+  border: none;
+  width: 250px;
+  height: 50px;
+  font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  font-size: 15pt;
+  color: #fff;
+  background-color: #ec744a;
+}
